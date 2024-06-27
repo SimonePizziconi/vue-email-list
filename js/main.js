@@ -21,4 +21,7 @@ const { createApp } = Vue;
             }
         }
     },
+    created(){
+        this.createEmails();
+    },
     }).mount('#app')
